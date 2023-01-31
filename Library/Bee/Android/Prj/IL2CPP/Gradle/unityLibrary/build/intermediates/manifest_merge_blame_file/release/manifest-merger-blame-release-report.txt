@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:3-52
+12-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:3-65
+14-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:20-62
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:3-77
+15-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:20-74
+16
+17    <uses-feature
+17-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:3-89
+18        android:name="android.hardware.location.gps"
+18-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:17-61
+19        android:required="false" />
+19-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:62-86
+20    <uses-feature
+20-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:3-85
+21        android:name="android.hardware.location"
+21-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:17-57
+22        android:required="false" />
+22-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:24:58-82
+23    <uses-feature
+23-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:3-88
+24        android:name="android.hardware.touchscreen"
+24-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:17-60
+25        android:required="false" />
+25-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:25:61-85
+26    <uses-feature
+26-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:17-71
+28        android:required="false" />
+28-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:26:72-96
+29    <uses-feature
+29-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:17-80
+31        android:required="false" />
+31-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:27:81-105
+32
+33    <uses-permission android:name="android.permission.CAMERA" />
+33-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:3-63
+33-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:28:20-60
+34
+35    <uses-feature
+35-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:3-85
+36        android:name="android.hardware.camera.ar"
+36-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:17-58
+37        android:required="true" />
+37-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:29:59-82
+38    <uses-feature
+38-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:3-83
+39        android:name="com.google.ar.core.depth"
+39-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:17-56
+40        android:required="true" />
+40-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:30:57-80
+41
+42    <application android:extractNativeLibs="true" >
+42-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-19:17
+42-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+43        <activity
+43-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-11:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+45-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+46            android:hardwareAccelerated="false"
+46-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+47            android:launchMode="singleTask"
+47-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+48            android:resizeableActivity="false"
+48-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
+49            android:screenOrientation="fullUser"
+49-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+50            android:theme="@style/UnityThemeSelector" >
+50-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+51            <intent-filter>
+51-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+52-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+54-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+55            </intent-filter>
+56
+57            <meta-data
+57-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
+58                android:name="unityplayer.UnityActivity"
+58-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
+59                android:value="true" />
+59-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
+60            <meta-data
+60-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-78
+61                android:name="android.notch_support"
+61-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+62                android:value="true" />
+62-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:55-75
+63        </activity>
+64
+65        <meta-data
+65-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-69
+66            android:name="unity.splash-mode"
+66-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-48
+67            android:value="0" />
+67-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:49-66
+68        <meta-data
+68-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-74
+69            android:name="unity.splash-enable"
+69-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-50
+70            android:value="True" />
+70-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:51-71
+71        <meta-data
+71-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-78
+72            android:name="unity.launch-fullscreen"
+72-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-54
+73            android:value="True" />
+73-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:55-75
+74        <meta-data
+74-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
+75            android:name="unity.allow-resizable-window"
+75-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-59
+76            android:value="False" />
+76-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:60-81
+77        <meta-data
+77-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-81
+78            android:name="notch.config"
+78-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-43
+79            android:value="portrait|landscape" />
+79-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:44-78
+80        <meta-data
+80-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-88
+81            android:name="unityplayer.SkipPermissionsDialog"
+81-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-64
+82            android:value="true" />
+82-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:65-85
+83        <meta-data
+83-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:5-77
+84            android:name="com.google.ar.core"
+84-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:16-49
+85            android:value="required" />
+85-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml:18:50-74
+86    </application>
+87
+88</manifest>

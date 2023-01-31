@@ -1,0 +1,206 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.algorithm.benzene"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-79
+22-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-76
+23
+24    <uses-feature
+24-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.location.gps"
+25-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-53
+26        android:required="false" />
+26-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.location"
+28-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-49
+29        android:required="false" />
+29-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen"
+31-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-52
+32        android:required="false" />
+32-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen.multitouch"
+34-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-63
+35        android:required="false" />
+35-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:28:9-33
+36    <uses-feature
+36-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:5-31:36
+37        android:name="android.hardware.touchscreen.multitouch.distinct"
+37-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-72
+38        android:required="false" />
+38-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:9-33
+39
+40    <uses-permission android:name="android.permission.CAMERA" />
+40-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-65
+40-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-62
+41
+42    <uses-feature
+42-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-37:35
+43        android:name="android.hardware.camera.ar"
+43-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-50
+44        android:required="true" />
+44-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-32
+45    <uses-feature
+45-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:5-40:35
+46        android:name="com.google.ar.core.depth"
+46-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:9-48
+47        android:required="true" />
+47-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-32
+48
+49    <queries>
+49-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:29:5-31:15
+50        <package android:name="com.google.ar.core" />
+50-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:30:9-54
+50-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:30:18-51
+51    </queries>
+52
+53    <application
+53-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+54        android:extractNativeLibs="true"
+54-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:18-50
+55        android:icon="@mipmap/app_icon"
+55-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+56        android:label="@string/app_name" >
+56-->/Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+57        <activity
+57-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:43:9-63:20
+58            android:name="com.unity3d.player.UnityPlayerActivity"
+58-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:44:13-66
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+59-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:13-194
+60            android:hardwareAccelerated="false"
+60-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:13-48
+61            android:launchMode="singleTask"
+61-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:13-44
+62            android:resizeableActivity="false"
+62-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-47
+63            android:screenOrientation="fullUser"
+63-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:13-49
+64            android:theme="@style/UnityThemeSelector" >
+64-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:13-54
+65            <intent-filter>
+65-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:51:13-55:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:17-69
+66-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:52:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:17-77
+68-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:27-74
+69            </intent-filter>
+70
+71            <meta-data
+71-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-59:40
+72                android:name="unityplayer.UnityActivity"
+72-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:17-57
+73                android:value="true" />
+73-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:17-37
+74            <meta-data
+74-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-62:40
+75                android:name="android.notch_support"
+75-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:17-53
+76                android:value="true" />
+76-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:17-37
+77        </activity>
+78
+79        <meta-data
+79-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:9-67:33
+80            android:name="unity.splash-mode"
+80-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-45
+81            android:value="0" />
+81-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-30
+82        <meta-data
+82-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:9-70:36
+83            android:name="unity.splash-enable"
+83-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-47
+84            android:value="True" />
+84-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:13-33
+85        <meta-data
+85-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:9-73:36
+86            android:name="unity.launch-fullscreen"
+86-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:13-51
+87            android:value="True" />
+87-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:13-33
+88        <meta-data
+88-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:74:9-76:37
+89            android:name="unity.allow-resizable-window"
+89-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:75:13-56
+90            android:value="False" />
+90-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:76:13-34
+91        <meta-data
+91-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:77:9-79:50
+92            android:name="notch.config"
+92-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:78:13-40
+93            android:value="portrait|landscape" />
+93-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:79:13-47
+94        <meta-data
+94-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:80:9-82:36
+95            android:name="unityplayer.SkipPermissionsDialog"
+95-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:81:13-61
+96            android:value="true" />
+96-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:82:13-33
+97        <meta-data
+97-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:83:9-85:40
+98            android:name="com.google.ar.core"
+98-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:84:13-46
+99            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+99-->[:unityLibrary] /Users/jeong-eunhee/Desktop/Projects/benzene/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:85:13-37
+100        <meta-data
+100-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:36:9-38:41
+101            android:name="com.google.ar.core.min_apk_version"
+101-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:37:13-62
+102            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+102-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:38:13-38
+103        <activity
+103-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:40:9-46:80
+104            android:name="com.google.ar.core.InstallActivity"
+104-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:41:13-62
+105            android:configChanges="keyboardHidden|orientation|screenSize"
+105-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:42:13-74
+106            android:excludeFromRecents="true"
+106-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:43:13-46
+107            android:exported="false"
+107-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:44:13-37
+108            android:launchMode="singleTop"
+108-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:45:13-43
+109            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+109-->[:arcore_client:] /Users/jeong-eunhee/.gradle/caches/transforms-2/files-2.1/ae4e63aee2448ed4859dc95da47269f5/arcore_client/AndroidManifest.xml:46:13-77
+110    </application>
+111
+112</manifest>
