@@ -16,8 +16,8 @@
 <br>
 
 # 시연 영상
-<img width="100%" src="https://user-images.githubusercontent.com/62401770/215721910-826f054d-44da-4e3f-a741-81764e77e2ae.gif"/>
-<img width="100%" src="https://user-images.githubusercontent.com/62401770/215730847-74d518d6-fa1c-4f81-9b41-e33f10dbc017.gif"/>
+<img width="80%" src="https://user-images.githubusercontent.com/62401770/215721910-826f054d-44da-4e3f-a741-81764e77e2ae.gif"/>
+<img width="80%" src="https://user-images.githubusercontent.com/62401770/215730847-74d518d6-fa1c-4f81-9b41-e33f10dbc017.gif"/>
 
 
 <br>
