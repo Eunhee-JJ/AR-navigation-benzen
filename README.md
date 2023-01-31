@@ -4,7 +4,7 @@
 <br>
 
 # 사용 언어 및 기술 스택
-- `C#`
+- `C`,`C++`,`C#`
 - `Unity` - 2021.3.11f1 LTS for Apple Silicon
 
 <br>
